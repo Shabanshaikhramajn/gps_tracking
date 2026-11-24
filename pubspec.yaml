@@ -54,6 +54,11 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+  # Lets the SQLite-backed tests below run real sqflite queries under
+  # plain `flutter test` (no device/emulator) by swapping in an FFI
+  # database factory instead of the platform channel one.
+  sqflite_common_ffi: ^2.3.3
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
